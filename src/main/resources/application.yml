@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discoveryService
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false #gateway는 eureka에 등록할필요 없다. gateway는
+    fetchRegistry: false #gateway는 eureka가 찾을 필요 없다
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
