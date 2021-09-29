@@ -9,4 +9,4 @@ eureka:
  client:
     registerWithEureka: false
     fetchRegistry: false
-    # "etc/sudoers 수정"
+    # "add log to jenkins ssh"
