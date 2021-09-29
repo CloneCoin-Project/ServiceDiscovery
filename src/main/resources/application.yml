@@ -9,4 +9,4 @@ eureka:
  client:
     registerWithEureka: false
     fetchRegistry: false
-    # "add log to jenkins ssh"
+    # "cp cd test"
