@@ -9,4 +9,4 @@ eureka:
  client:
     registerWithEureka: false
     fetchRegistry: false
-    #real last ...
+    # su -u test
