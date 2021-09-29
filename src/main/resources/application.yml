@@ -9,4 +9,4 @@ eureka:
  client:
     registerWithEureka: false
     fetchRegistry: false
-    # su -u test2
+    # "etc/sudoers 수정"
